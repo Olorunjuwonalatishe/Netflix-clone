@@ -14,6 +14,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 30%, rgba(0, 0, 0, .8)), url(/assets/images/netflix-bg.jpg);
     height: 88vh;
     border-bottom: 8px solid #222222;
+    cursor: pointer;
 }
 
 .hero-section header {
@@ -30,6 +31,7 @@
     border: none;
     border-radius: 5px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .hero-section-text-wrapper {
