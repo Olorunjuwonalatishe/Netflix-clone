@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: gray;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 30%, rgba(0, 0, 0, .8)), url(/assets/images/netflix-bg.jpg);
+    height: 100vh;
+}
+header span img{
+    margin: 1rem 3rem;
+    width: 10%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.content{
+    width: 28%;
+    padding: 3.5rem 4rem 7rem;
+    background-color:rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+.input{
+    display: grid;
+    grid-row: 1fr 1fr;
+    gap: 1rem;
+    margin: 2.5rem 0;
+
+}
+input[type=email], input[type=password]{
+    height: 3.5rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(144, 142, 142, 0.5);
+}
+input[type=email]::placeholder{
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+input[type=password]::placeholder{
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+button{
+    width: 100%;
+    height: 3.5rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 3rem; */
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+button h2{
+    color: white;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rememberMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.rememberMe
+.blue{
+    color: blue;
+}
+.text2{
+    margin-top: 3rem;
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.signtext{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 0.5rem;
+}
+footer{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, .8));
+    margin-top: 5rem;
+    padding: 3rem;
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width:1000px){
+.wrapper{
+    width: 50%;
+}
+}
+@media only screen and (max-width:929px){
+    .wrapper{
+        width: 75%;
+    }
+    }
+@media only screen and (max-width:729px){
+    .wrapper{
+        width: 100%;
+    }
+    }
